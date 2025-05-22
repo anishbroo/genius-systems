@@ -31,6 +31,7 @@ const cardData = [
     description:
       "Leverage powerful Terminal Management System and real time analytics to monitor performance.",
   },
+
   {
     image: "/public/hover/cst.png",
     title: "Customer Support Tools",
@@ -53,10 +54,12 @@ const cardData = [
 
 function HoverDetails() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+
   const scrollRef = useRef(null);
 
   useEffect(() => {
     const container = scrollRef.current;
+
     if (!container) return;
 
     const scrollSpeed = 0.5;
@@ -72,7 +75,7 @@ function HoverDetails() {
     }, 20);
 
     return () => clearInterval(interval);
-  }, []);
+  });
 
   return (
     <div
