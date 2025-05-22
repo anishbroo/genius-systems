@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function FeaturesView({
   heading1,
   caption1,
@@ -69,7 +71,7 @@ function FeaturesView({
         <h2 className="text-white text-4xl mb-2">{letsCall}</h2>
         <p className="text-gray-300 text-lg mb-6">{letsCallCaption}</p>
         <button className="text-sm bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded">
-          {buttonText}
+          <Link to="/meeting">{buttonText}</Link>
         </button>
       </div>
 
