@@ -1,12 +1,12 @@
 import "./App.css";
-import Header from "./components/header";
-import Dashboard from "./components/dashboard";
-import Footer from "./components/footer";
-import Features from "./components/features";
-import HoverDetails from "./components/hoverDetails";
-import Gears from "./components/gears";
+import Header from "./components/smart/header";
+import Dashboard from "./components/smart/dashboard";
+import Footer from "./components/dumb/footerView";
+import Features from "./components/smart/features";
+import HoverDetails from "./components/smart/hoverDetails";
+import Gears from "./components/smart/gears";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Meeting from "./components/meeting";
+import Meeting from "./components/smart/meeting";
 
 function App() {
   return (

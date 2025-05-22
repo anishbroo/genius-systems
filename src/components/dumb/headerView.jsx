@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom";
-import React, { useState } from "react";
 
-function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-
+function HeaderView({ isOpen, setIsOpen }) {
   return (
     <header className="px-6 py-4 bg-black text-white border-gray border-1 border-b sticky top-0 z-50">
       <div className="flex items-center justify-between">
@@ -84,4 +81,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderView;

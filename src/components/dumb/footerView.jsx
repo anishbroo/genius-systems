@@ -1,4 +1,4 @@
-function Footer() {
+function FooterView() {
   return (
     <div className="bg-[#141817]">
       <div className="flex justify-center sm:justify-between border-b border-gray-500 px-6 py-4 ">
@@ -42,4 +42,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterView;
