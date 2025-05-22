@@ -7,7 +7,7 @@ function CustomerItem() {
         <div
           key={index}
           className={`text-center mb-5 ${
-            index !== customer.length - 1 ? "border-b" : ""
+            index !== CustomerData.length - 1 ? "border-b" : ""
           }`}
         >
           <h2 className="text-gray-200 font-bold text-2xl mb-5">
