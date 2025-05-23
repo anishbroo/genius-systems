@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/smart/header";
 import Dashboard from "./components/smart/dashboard";
-import Footer from "./components/dumb/footerView";
+import Footer from "./components/dumb/footerSection/footerView";
 import Features from "./components/smart/features";
 import HoverDetails from "./components/smart/hoverDetails";
 import Gears from "./components/smart/gears";

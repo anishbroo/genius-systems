@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import GearsView from "../dumb/gearsView";
+import GearsView from "../dumb/gearsSection/gearsView";
 
 gsap.registerPlugin(ScrollTrigger);
 

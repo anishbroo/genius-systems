@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import HoverDetailsView from "../dumb/hoverDetailsView";
+import HoverDetailsView from "../dumb/homeSection/hoverDetailsView";
 
 const cardData = [
   {

@@ -1,4 +1,4 @@
-import FooterData from "./data/footer";
+import FooterData from "../data/footer";
 
 function FooterItem() {
   return (

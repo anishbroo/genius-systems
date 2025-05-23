@@ -1,4 +1,4 @@
-import SectionData from "./data/sectionData";
+import SectionData from "../data/sectionData";
 
 function SectionItem({ index }) {
   const sec = SectionData[index];

@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import { useEffect } from "react";
-import MeetingView from "../dumb/meetingView";
+import MeetingView from "../dumb/meetingSection/meetingView";
 
 function Meeting() {
   useEffect(() => {

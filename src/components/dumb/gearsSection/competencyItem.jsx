@@ -1,4 +1,4 @@
-import CompetencyData from "./data/competencyData";
+import CompetencyData from "../data/competencyData";
 
 function CompetencyItem() {
   return (

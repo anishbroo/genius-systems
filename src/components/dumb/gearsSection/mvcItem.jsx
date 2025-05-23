@@ -1,4 +1,4 @@
-import MvsData from "./data/mvcData";
+import MvsData from "../data/mvcData";
 
 function MvcItem() {
   return (

@@ -1,4 +1,4 @@
-import ComponentData from "./data/componentsData";
+import ComponentData from "../data/componentsData";
 
 function ComponentsTDB() {
   return (

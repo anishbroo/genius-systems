@@ -1,4 +1,4 @@
-import FeatureData from "./data/featureData";
+import FeatureData from "../data/featureData";
 
 function EmpowerContentItem() {
   return (

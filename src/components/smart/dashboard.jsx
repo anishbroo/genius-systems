@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import { useEffect } from "react";
-import DashboardView from "../dumb/dashboardView";
+import DashboardView from "../dumb/homeSection/dashboardView";
 
 function Dashboard() {
   useEffect(() => {

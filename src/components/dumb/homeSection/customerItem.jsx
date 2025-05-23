@@ -1,4 +1,4 @@
-import CustomerData from "./data/customerData";
+import CustomerData from "../data/customerData";
 
 function CustomerItem() {
   return (

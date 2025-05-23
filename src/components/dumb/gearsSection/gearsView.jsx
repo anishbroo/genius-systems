@@ -1,7 +1,7 @@
 import CompetencyItem from "./competencyItem";
 import ComponentsTDB from "./componentsTDB";
 import GearsItem from "./gearsItem";
-import GearsSpinnerSection from "./gearsSection/gearsSpinnerSection";
+import GearsSpinnerSection from "./gearsSpinnerSection";
 import MvcItem from "./mvcItem";
 import SectionItem from "./sectionItem";
 

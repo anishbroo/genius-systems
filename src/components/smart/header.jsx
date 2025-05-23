@@ -1,5 +1,5 @@
 import { useState } from "react";
-import HeaderView from "../dumb/headerView";
+import HeaderView from "../dumb/homeSection/headerView";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);

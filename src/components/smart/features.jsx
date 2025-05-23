@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import FeaturesView from "../dumb/featuresView";
+import FeaturesView from "../dumb/homeSection/featuresView";
 
 gsap.registerPlugin(ScrollTrigger);
 
